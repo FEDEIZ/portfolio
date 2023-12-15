@@ -4,11 +4,11 @@ import {motion} from 'framer-motion'
 import { links } from '@/lib/data'
 import Link from 'next/link'
 import clsx from 'clsx'
-import { ActiveSectionContext, useActiveSectionContext } from '@/context/ActiveSectionContextProvider'
+import { useActiveSectionContext } from '@/context/ActiveSectionContextProvider'
 
 export default function Header() {
 
-  const {activeSection, setActiveSection} = useActiveSectionContext()
+  const {activeSection, setActiveSection, setTimeOfLastClick} = useActiveSectionContext()
 
   return (
   <header className='z-[999] relative'>
@@ -36,7 +36,7 @@ export default function Header() {
                       href={link.hash}
                       onClick={() => {
                         setActiveSection(link.name);
-                        //setTimeOfLastClick(Date.now());
+                        setTimeOfLastClick(Date.now());
                       }}>{link.name}
                       {link.name === activeSection && (
                       <motion.span
