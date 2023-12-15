@@ -15,8 +15,8 @@ export default function Project({ title,description, tags, imageUrl} : ProjectPr
     offset: ["0 1", "1.33 1"],
   });
   
-  const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
-  const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
+   const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.5, 1]);
+   const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.2, 1]);
 
     return (
         <motion.div
@@ -28,10 +28,10 @@ export default function Project({ title,description, tags, imageUrl} : ProjectPr
         className="group mb-3 sm:mb-8 last:mb-0"
         >
             <section 
-            className="group bg-gray-100 max-w-[42rem] border 
+            className="bg-gray-100 max-w-[42rem] border 
             border-black/5 rounded-lg overflow-hidden 
-            mb-3 hover:bg-gray-200 transition
-            sm:h-[20rem] sm:relative sm:mb-8 last:mb-0 sm:group-even:pl-8"> 
+            hover:bg-gray-200 transition
+            sm:h-[20rem] sm:relative sm:group-even:pl-8"> 
 
                 <div className='flex flex-col h-full py-4 pb-7 px-5  
                 sm:pt-10 sm:pr-2 sm:max-w-[50%] sm:pl-10 sm:group-even:ml-[18rem]'>
