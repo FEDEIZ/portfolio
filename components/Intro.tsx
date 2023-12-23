@@ -28,7 +28,7 @@ export default function Intro() {
                 duration: 0.2
               }}
               >
-                <Image src={photo_cv} 
+                <Image src="https://res.cloudinary.com/dponswbct/image/upload/v1703369649/portfolio/lyshwlijw5tcxlebbsnq.jpg" 
                 width='192' 
                 height='192' 
                 quality='100' 
