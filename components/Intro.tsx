@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image'
 import React from 'react'
-import photo_cv from '@/public/photo_cv.jpg'
+import photo_cv from '@/public/photo_cv.jpeg'
 import { motion } from 'framer-motion'
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
