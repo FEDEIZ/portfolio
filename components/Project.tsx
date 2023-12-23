@@ -4,10 +4,11 @@ import React, { useRef } from 'react'
 import { projectsData } from '@/lib/data'
 import Image from 'next/image'
 import { motion, useScroll, useTransform } from 'framer-motion'
+import GithubBtn from './GithubBtn';
 
 type ProjectProps = (typeof projectsData)[number]
 
-export default function Project({ title,description, tags, imageUrl} : ProjectProps) {
+export default function Project({ title,description, tags, imageUrl, url, github} : ProjectProps) {
   
     const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -35,7 +36,10 @@ export default function Project({ title,description, tags, imageUrl} : ProjectPr
                 <div className='flex flex-col h-full py-4 pb-7 px-5  
                 sm:pt-10 sm:pr-2 sm:max-w-[50%] sm:pl-10 sm:group-even:ml-[18rem]'>
 
-                    <h3 className='text 2xl font-semibold'>{title}</h3>
+                    <div className='flex flex-auto justify-around items-center'>
+                        <h3 className='text 2xl font-semibold'>{title}</h3>
+                        <GithubBtn githubUrl={github}/>
+                    </div>
                     <p className='mt-2 leading-relaxed text-gray-700'>{description}</p>
                     <ul className='flex flex-wrap mt-4 mb-2 gap-2 sm:mt-2'>
                         {tags.map((tag, index) => (
@@ -45,30 +49,36 @@ export default function Project({ title,description, tags, imageUrl} : ProjectPr
                         ))}
                     </ul>
                 </div>
-                <Image src={imageUrl} 
-                alt='project i worked on' 
-                quality='95'
-                className='rounded-t-lg shadow-2xl mx-auto 
-                object-cover object-top h-[20rem] w-[25rem]
-                sm:-right-40 sm:w-[28.25rem]
+                <a
+                href={url}
+                target="_blank"
+                >
+                    <Image src={imageUrl} 
+                    alt='project i worked on' 
+                    quality='95'
+                    className='rounded-t-lg shadow-2xl mx-auto 
+                    object-cover object-top h-[20rem] w-[25rem]
+                    sm:-right-40 sm:w-[28.25rem]
 
-                group-even:sm:right-[initial] 
-                group-even:sm:-left-40 sm:absolute top-8 
-                group-even:sm:transition
+                    group-even:sm:right-[initial] 
+                    group-even:sm:-left-40 sm:absolute top-8 
+                    group-even:sm:transition
 
-                group-hover:scale-[1.04]
-                group-hover:-translate-x-3
-                group-hover:translate-y-3
-                group-hover:-rotate-2
-                group-hover:transition
+                    group-hover:scale-[1.04]
+                    group-hover:-translate-x-3
+                    group-hover:translate-y-3
+                    group-hover:-rotate-2
+                    group-hover:transition
 
-                group-even:group-hover:translate-x-3
-                group-even:group-hover:translate-y-3
-                group-even:group-hover:rotate-2
-                group-even:group-hover:transition
+                    group-even:group-hover:translate-x-3
+                    group-even:group-hover:translate-y-3
+                    group-even:group-hover:rotate-2
+                    group-even:group-hover:transition
 
-                group-even:right-[initial] group-even:-left-40 
-                '/>
+                    group-even:right-[initial] group-even:-left-40 
+                    '
+                    />
+                </a>
                 
             </section>
         </motion.div>

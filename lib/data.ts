@@ -2,9 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaNodeJs } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import technomerch from "@/public/tecnomerch.png";
+import yvy from "@/public/yvy.png";
 
 export const links = [
   {
@@ -99,26 +98,23 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Techno-Merch",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I Worked as a back end developer with an amazing team to develop a fully customized ecommerce model with React, Redux Node Js and Postgres hosted on your own server",
+    tags: ["React.js", "Redux-Toolkit", "PostgreSQL", "CSS", "Express", "Node Js"],
+    imageUrl: technomerch,
+    url: "https://tecnomerch.christianvillegas.com",
+    github:"https://github.com/PT07G05-Henry/PT07G05-Henry.github.io"
   },
   {
-    title: "rmtDev",
+    title: "YvY",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-  },
+      "As a tech in the Fundación Plan 21 Company, I developed modules for the free sustainable agriculture application, unique and free in Latin America.",
+    tags: ["React", "TypeScript", "Vite.js", "Material UI", "Redux", "IBM Cloud", "Docker", "Type ORM"],
+    imageUrl: yvy,
+    url: "https://yvyapp.plan21.org",
+    github: "https://github.com/Open-YvY/Open-YvY"
+  }
 ] as const;
 
 export const skillsData = [

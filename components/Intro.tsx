@@ -1,7 +1,6 @@
 'use client'
 import Image from 'next/image'
 import React from 'react'
-import photo_cv from '@/public/photo_cv.jpeg'
 import { motion } from 'framer-motion'
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
@@ -9,6 +8,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import Link from 'next/link'
 import { useSectionInView } from '@/lib/hooks'
 import { useActiveSectionContext } from '@/context/ActiveSectionContextProvider'
+import GithubBtn from './GithubBtn';
 
 export default function Intro() {
 
@@ -112,15 +112,7 @@ export default function Intro() {
               <BsLinkedin />
             </a>
 
-            <a
-              className="bg-white p-4 text-gray-700 flex items-center 
-              gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 
-              active:scale-105 transition borderBlack"
-              href="https://github.com/fedeiz"
-              target="_blank"
-            >
-              <FaGithubSquare />
-            </a>
+           <GithubBtn githubUrl={"https://github.com/fedeiz"}/>
 
           </div>
         </motion.div>
