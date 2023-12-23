@@ -1,6 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
@@ -35,30 +35,67 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Huawei - Seed For the Future",
+    location: "Beijing & Shenzen, China",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I was chosen as a scholarship recipient for the Huawei training program. I learned the fundamentals of 5G telecommunications and IoT.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2017",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Graduated Electronic Engineer - Universidad Nacional de Tucuman(FACET)",
+    location: "Tucuman, Argentina",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I graduated after 6 years of studying with an average of 8 out of 10. I immediately found a job as maintenance manager at a wastewater effluent plant.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2012 - 2018",
+  },
+
+  {
+    title: "Network Manager - 'Conectar Igualdad Program' of Ministry of Education of Tucuman",
+    location: "Tucuman, Argentina",
+    description:
+      "Management of the internal network of the school establishment. Administration of computer equipment and technical support.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2017",
+  },
+
+  {
+    title: "Maintenance Manager (Ssr) - Sociedad de Aguas del Tucuman (SAT)",
+    location: "Tucuman, Argentina",
+    description:
+      "I was in charge of a maintenance team, carrying out an engineering plan to keep the equipment operational 24 hours a day.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2019 - 2023",
+  },
+
+  {
+    title: "Full Stack Developer - Henry Bootcamp",
+    location: "Remote, Argentina",
+    description:
+      "I graduated after studying for 9 months as a full stack developer from Henry Bootcamp. I have made an individual web application and another as a team with Scrum as a framework.",
+      icon: React.createElement(LuGraduationCap),
+    date: "2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Tech Lead - Fundacion Plan 21",
+    location: "Remote, Argentina",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I'm now the tech lead of an amazing project called YvY - Web App for regenerative agriculture. My stack includes React, Vite js, TypeScript, Material UI, Express, Postgress, Docker and IBM Cloud.",
+    icon: React.createElement(FaNodeJs),
+    date: "2023 - present",
+  },
+  {
+    title: "Backend Teacher Sopport - Coder House Bootcamp",
+    location: "Remote, Argentina",
+    description:
+      "Teaching support in Back End course classes. Correction of works. In charge of a group of students.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - present",
   },
 ] as const;
+
+
 
 export const projectsData = [
   {
