@@ -28,8 +28,7 @@ export default function Project({ title,description, tags, imageUrl} : ProjectPr
         className="group mb-3 sm:mb-8 last:mb-0"
         >
             <section 
-            className="bg-gray-100 max-w-[42rem] border 
-            border-black/5 rounded-lg overflow-hidden 
+            className="bg-gray-100 max-w-[42rem] borderBlack rounded-lg overflow-hidden 
             hover:bg-gray-200 transition
             sm:h-[20rem] sm:relative sm:group-even:pl-8"> 
 
