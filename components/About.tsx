@@ -26,26 +26,19 @@ export default function About() {
         <span className="font-medium">Electronic Engineer</span>, I decided to pursue my
         passion for programming. I enrolled in a coding bootcamp and learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        At the same time, I completed a postgraduate degree in computer technology integration from the National University of Tucumán. I am currently a <span className="font-extrabold">Specialist Electronic Engineer and Full Stack Developer.</span>{" "}
+        My main core stack is{" "}
         <span className="font-medium">
-          React, Next.js, Node.js (typescript), and Postgress
+          React, Next.js, Node.js (typescript), and Postgress or MongoDb and cloud solutions as IBM Cloud, Google Cloud or AWS
         </span>
-        . I am also familiar with Nest Js framework. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        . I am also familiar with Nest Js framework and the best programming patterns (OOP). I am always looking to
+        learn new technologies and upgrading my programming skills. I am currently looking for a{" "}
+        <span className="font-semibold">full-time position</span> as a software
+        developer, while I serve as <span className="font-semibold">Tech Lead in the YvY project of Fundacion Plan 21</span> 
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="italic">When I'm not coding</span>, I enjoy my family moments, playing the guitar and hanging out with friends.
       </p>
     </motion.section>
     
