@@ -97,15 +97,7 @@ export const experiencesData = [
 
 
 export const projectsData = [
-  {
-    title: "Techno-Merch",
-    description:
-      "I Worked as a back end developer with an amazing team to develop a fully customized ecommerce model with React, Redux Node Js and Postgres hosted on your own server",
-    tags: ["React.js", "Redux-Toolkit", "PostgreSQL", "CSS", "Express", "Node Js"],
-    imageUrl: technomerch,
-    url: "https://tecnomerch.christianvillegas.com",
-    github:"https://github.com/PT07G05-Henry/PT07G05-Henry.github.io"
-  },
+  
   {
     title: "YvY",
     description:
@@ -114,6 +106,15 @@ export const projectsData = [
     imageUrl: yvy,
     url: "https://yvyapp.plan21.org",
     github: "https://github.com/Open-YvY/Open-YvY"
+  },
+  {
+    title: "Techno-Merch",
+    description:
+      "I Worked as a back end developer with an amazing team to develop a fully customized ecommerce model with React, Redux Node Js and Postgres hosted on your own server",
+    tags: ["React.js", "Redux-Toolkit", "PostgreSQL", "CSS", "Express", "Node Js"],
+    imageUrl: technomerch,
+    url: "https://tecnomerch.christianvillegas.com",
+    github:"https://github.com/PT07G05-Henry/PT07G05-Henry.github.io"
   }
 ] as const;
 
@@ -137,7 +138,7 @@ export const skillsData = [
   "Framer Motion",
   "Material UI",
   "OOP",
-  "Leadirship",
+  "Leadership",
   "Advance English",
   "Electronic Engineer Specialist"
 ] as const;
