@@ -77,7 +77,7 @@ export const experiencesData = [
     date: "2022",
   },
   {
-    title: "Tech Lead - Fundacion Plan 21",
+    title: "Tech Lead (Ssr) - Fundacion Plan 21",
     location: "Remote, Argentina",
     description:
       "I'm now the tech lead of an amazing project called YvY - Web App for regenerative agriculture. My stack includes React, Vite js, TypeScript, Material UI, Express, Postgress, Docker and IBM Cloud.",
@@ -85,7 +85,7 @@ export const experiencesData = [
     date: "2023 - present",
   },
   {
-    title: "Backend Teacher Sopport - Coder House Bootcamp",
+    title: "Backend Teacher Sopport (Jr)- Coder House Bootcamp",
     location: "Remote, Argentina",
     description:
       "Teaching support in Back End course classes. Correction of works. In charge of a group of students.",

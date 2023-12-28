@@ -21,25 +21,18 @@ export default function About() {
      >
 
     <SectionHeader>About me</SectionHeader>
-          <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Electronic Engineer</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        At the same time, I completed a postgraduate degree in computer technology integration from the National University of Tucumán. I am currently a <span className="font-extrabold">Specialist Electronic Engineer and Full Stack Developer.</span>{" "}
-        My main core stack is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js (typescript), and Postgress or MongoDb and cloud solutions as IBM Cloud, Google Cloud or AWS
-        </span>
-        . I am also familiar with Nest Js framework and the best programming patterns (OOP). I am always looking to
-        learn new technologies and upgrading my programming skills. I am currently looking for a{" "}
-        <span className="font-semibold">full-time position</span> as a software
-        developer, while I serve as <span className="font-semibold">Tech Lead in the YvY project of Fundacion Plan 21</span> 
+        
+      <p className='mb-3'> 
+      After graduating as an electronic engineer and working for 5 years 
+      in the electronics field, I decided to take a 180 degree turn towards what I like most:{" "}
+      <span className="italic">software and programming.</span> That is why I decided to pursue a 
+      postgraduate degree in computer technology integration in <span className="italic">Tucuman's National University</span>{" "} 
+      and take a full stack course at <span className="italic">Henry Bootcamp,</span>{" "} 
+      which allowed me to start my career as a <span className="font-extrabold">Full Stack Developer and Software Engineer</span>. 
+      I currently  work as a <span className="font-extrabold">Tech Lead</span> at Fundacion Plan 21 in charge of the YvY application, 
+      while I look for new challenges to continue growing.
       </p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy my family moments, playing the guitar and hanging out with friends.
-      </p>
     </motion.section>
     
   )

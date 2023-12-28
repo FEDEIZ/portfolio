@@ -50,7 +50,7 @@ export default function Intro() {
                 }}
                 >
                 
-                  👋
+                 🇦🇷
                 </motion.span>
             </div>
         </div>
@@ -58,9 +58,9 @@ export default function Intro() {
         initial={{opacity: 0, y:100}}
         animate={{opacity: 1, y: 0}}
         className='mb-10 mt-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'>
-        <span className="font-bold">Hello, I'm Federico.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> and {" "}
-        <span className="font-bold">electronic engineer</span> with{" "}
+        <span className="font-bold">Hello, I'm Federico from Argentina.</span> I'm a{" "}
+        <span className="font-bold">Full-stack Developer</span> and {" "}
+        <span className="font-bold">Software Engineer</span> with{" "}
         <span className="font-bold">3 years</span> of software development experience. I enjoy
         building <span className="italic">web apps & api rest</span>. My focus is{" "}
         <span className="underline">Node js (Typescript)</span>.
